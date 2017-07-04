@@ -1,0 +1,1 @@
+So you can use boolean values with numbers and all types!
