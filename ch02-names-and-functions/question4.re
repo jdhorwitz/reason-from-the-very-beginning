@@ -1,6 +1,3 @@
-### Question 4
-
-```
 let rec power x n =>
   if (n == 0) {
     1
@@ -9,9 +6,5 @@ let rec power x n =>
   } else {
     x * power x (n - 1)
   };
-```
-
-Type: 
-```
-int => int => int => <fun>
-```
+/* Type:
+   int => int => int => <fun> */

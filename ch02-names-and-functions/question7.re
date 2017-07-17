@@ -1,8 +1,4 @@
-### Question 7
-
-You could raise an exception during a check for negative and 0.
-
-```
+/* You could raise an exception during a check for negative and 0. */
 let rec factorial x =>
   if (x <= 0) {
     0
@@ -11,4 +7,3 @@ let rec factorial x =>
   } else {
     x * factorial (x - 1)
   };
-```
