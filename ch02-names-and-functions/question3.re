@@ -1,8 +1,8 @@
-let rec sum n =>
+let rec sum = n =>
   if (n == 1) {
-    1
+    1;
   } else {
-    n + sum (n - 1)
+    n + sum(n - 1);
   };
 /* type:
    int => int => <fun> */

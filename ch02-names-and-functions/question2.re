@@ -1,8 +1,8 @@
-let bothTrue x y =>
+let bothTrue = (x, y) =>
   if (x != 0 && y != 0) {
-    true
+    true;
   } else {
-    false
+    false;
   };
 /* Type:
    int => int => bool */

@@ -1,10 +1,10 @@
-let rec power x n =>
+let rec power = (x, n) =>
   if (n == 0) {
-    1
+    1;
   } else if (n == 1) {
-    x
+    x;
   } else {
-    x * power x (n - 1)
+    x * power(x, n - 1);
   };
 /* Type:
    int => int => int => <fun> */

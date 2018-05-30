@@ -1,4 +1,3 @@
-let isvowel x => x == 'a' || x == 'e' || x == 'i' || x == 'o' || x == 'u';
+let isVowel = x => x == 'a' || x == 'e' || x == 'i' || x == 'o' || x == 'u';
 
-let isconsonant y = not (isvowel y);
-
+let isConsonant = y => ! isVowel(y);

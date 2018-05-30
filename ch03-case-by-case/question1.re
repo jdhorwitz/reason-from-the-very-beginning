@@ -1,4 +1,1 @@
-let not x => switch x {
-  | true => false
-  | false => true
-};
+let (!) = x => x ? false : true;
